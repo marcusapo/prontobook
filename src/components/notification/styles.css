@@ -1,0 +1,62 @@
+.notifications {
+    width: 100%;
+    height: 12%;
+}
+
+.boxNotifi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.abrev {
+    width: 70px;
+    height: 70px;
+    background-color: #d7d7d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.abrev p {
+    font-size: 30px;
+}
+
+
+.nameNotifi {
+    display: flex;
+    gap: 13px;
+}
+
+.nameNotifi p:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.nameNotifi p:last-child {
+    font-size: 12px;
+}
+
+.textNotifi {
+    width: 90%;
+}
+
+.mainNot {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.mainNot div {
+    gap: 20px;
+    display: flex;
+}
+
+.lineNot {
+    height: 1px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #d7d7d7;
+}

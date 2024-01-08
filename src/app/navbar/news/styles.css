@@ -1,0 +1,132 @@
+.container {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 90%;
+    height: 82%;
+    border-radius: 15px;
+    background-color: #FFF;
+    border: 1px #c1c1c1 solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 22px;
+    background-color: #D7D7D7;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.textIcon {
+    margin-top: 18%;
+}
+
+.sessionInput{
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    width: 55%;
+}
+
+.inputSearch {
+    width: 30%;
+    display: flex;
+}
+
+.submit {
+    background-color: #1890FF;
+    width: 40px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.boxCheckbox {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0px 0px 30px;
+}
+
+.checkBox {
+    gap: 10px;
+}
+
+.label {
+    margin-left: 10px;
+}
+
+.comments {
+    width: 94%;
+    height: 30%;
+    margin: 10px 0px 0px 30px;
+    border-radius: 15px;
+    background-color: #FFF;
+    border: 1px #c1c1c1 solid;
+}
+
+.iconPhoto {
+    border-radius: 25px;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.namePerson {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.points {
+    height: 10px;
+    width: 83%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.threePoints {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hourPerson {
+    font-size: 13px;
+    margin-top: -13px;
+}
+
+.commentProfile {
+    padding: 10px 0px 0px 10px;
+}
+
+.interactions {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px 0px 10px;
+}
+
+.action {
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
